@@ -217,8 +217,8 @@ button.btn-signup {
 
 @media screen and (max-width: 450px) {
   body {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
   }
 
   #container {
@@ -243,8 +243,9 @@ button.btn-signup {
     align-content: center;
     flex-wrap: wrap;
     gap: 0;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 3rem;
+    overflow-y: scroll;
   }
 
   .box {
