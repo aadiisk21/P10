@@ -223,7 +223,7 @@ button.btn-signup {
 
   #container {
     width: 100vw;
-    min-height: 150vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -243,7 +243,6 @@ button.btn-signup {
     align-content: center;
     flex-wrap: wrap;
     gap: 0;
-    margin-top: 1rem;
     margin-bottom: 3rem;
     overflow-y: scroll;
   }
