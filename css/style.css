@@ -40,7 +40,6 @@ body {
   overflow: hidden;
   background-color: hsl(204, 43%, 93%);
   font-family: "Karla", sans-serif;
-  /* border: 1px solid red; */
 }
 
 /* A elements that don't have a class get default styles */
@@ -88,9 +87,9 @@ select {
   align-items: center;
   align-content: center;
   flex-flow: column;
-  /* border: 1px solid rgb(73, 251, 115); */
 }
 
+/* card */
 .card {
   width: 44vw;
   height: 28rem;
@@ -107,9 +106,9 @@ select {
   box-shadow: 0px 16px 30px 0px #90b2c68a, 0px 0px 1px 0px white,
     0px 1px 0px #d3d3d369;
   margin-bottom: 2rem;
-  /* border: 1px solid rgb(0, 0, 0); */
 }
 
+/* box */
 .box {
   width: 20vw;
   display: flex;
@@ -117,9 +116,9 @@ select {
   align-items: start;
   flex-flow: column;
   flex-grow: 1;
-  /* border: 1px solid rgb(0, 0, 0); */
 }
 
+/* card - Box-1 */
 .card-1 {
   height: 15.5rem;
   background-color: hsl(179, 62%, 43%);
@@ -152,6 +151,7 @@ select {
   margin-bottom: 1.8rem;
 }
 
+/* card - Box-2 */
 .card-2 {
   height: 15.5rem;
   background-color: hsl(179.4, 45.8%, 53.7%);
@@ -174,6 +174,7 @@ select {
   display: block;
 }
 
+/* card - Box-3 */
 .card-3 {
   height: 13rem;
   background-color: white;
@@ -201,6 +202,7 @@ select {
   margin: 0 0 0.5rem 0;
 }
 
+/* button */
 button.btn-signup {
   width: 100%;
   height: 2.8rem;
@@ -215,6 +217,7 @@ button.btn-signup {
   box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* media query for mobile width */
 @media screen and (max-width: 450px) {
   body {
     width: 100%;
