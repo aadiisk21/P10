@@ -106,6 +106,7 @@ select {
   overflow: hidden;
   box-shadow: 0px 16px 30px 0px #90b2c68a, 0px 0px 1px 0px white,
     0px 1px 0px #d3d3d369;
+    margin-bottom: 2rem;
   /* border: 1px solid rgb(0, 0, 0); */
 }
 
@@ -217,12 +218,12 @@ button.btn-signup {
 @media screen and (max-width: 450px) {
   body {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
   }
 
   #container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,7 +232,7 @@ button.btn-signup {
     flex-wrap: wrap;
     gap: 0;
     border-radius: 0.5rem;
-    overflow: scroll;
+    overflow: visible;
   }
 
   .card {
