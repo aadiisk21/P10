@@ -231,7 +231,7 @@ button.btn-signup {
     flex-wrap: wrap;
     gap: 0;
     border-radius: 0.5rem;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .card {
@@ -243,6 +243,7 @@ button.btn-signup {
     align-content: center;
     flex-wrap: wrap;
     gap: 0;
+    margin-bottom: 3rem;
   }
 
   .box {
