@@ -122,7 +122,6 @@ select {
 .card-1 {
   height: 15.5rem;
   background-color: hsl(179, 62%, 43%);
-  border-radius: 0 0 0 0.5rem;
   padding: 1.6rem 2.5rem;
 }
 
@@ -155,7 +154,6 @@ select {
 .card-2 {
   height: 15.5rem;
   background-color: hsl(179.4, 45.8%, 53.7%);
-  /* border-radius: 0 0 0.5rem 0; */
   padding: 1.6rem 2.5rem;
 }
 
@@ -178,8 +176,7 @@ select {
 .card-3 {
   height: 13rem;
   background-color: white;
-  /* border-radius: 0.5rem 0.5rem 0 0; */
-  padding: 1.6rem 2.3rem;
+  padding: 1.6rem 2.5rem;
 }
 
 .card-3 h1 {
@@ -225,7 +222,7 @@ button.btn-signup {
 
   #container {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -245,17 +242,24 @@ button.btn-signup {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    overflow: visible;
     gap: 0;
   }
 
   .box {
     width: 90%;
-    border-radius: 0;
-    border: 1px solid gray;
   }
 
-  .card-1, .card-2 {
+  .card-1,
+  .card-2 {
     order: 2;
+  }
+
+  .card-3 {
+    height: 18rem;
+  }
+
+  .card-3 p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
   }
 }
